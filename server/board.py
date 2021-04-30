@@ -3,6 +3,12 @@ from tile import tile
 class board:
     banana_board = []
 
+    '''
+    To access dictionary
+    -> [length of word][first letter]
+    '''
+    banana_dictionary = []
+
     @classmethod
     def placeWord(cls, word, startX, startY, direction):
 
@@ -35,10 +41,10 @@ class board:
         xDistance = maxX - minX
         yDistance = maxY - minY
 
-        print_board = [['' for i in range(xDistance+1)] for j in range(yDistance+1)]
+        print_board = [['' for i in range(xDistance+3)] for j in range(yDistance+3)]
 
         for tile in cls.banana_board:
-            print_board[tile.y + (minY * -1)][tile.x + (minX * -1)] = tile.letter
+            print_board[tile.y + (minY * -1) + 1][tile.x + (minX * -1) + 1] = tile.letter
         
         for row in print_board:
             print(row)

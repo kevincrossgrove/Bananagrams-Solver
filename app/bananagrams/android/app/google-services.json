@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275302342917",
+    "project_id": "bananagramsapp",
+    "storage_bucket": "bananagramsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275302342917:android:bf59eee6dd60740bc7d76c",
+        "android_client_info": {
+          "package_name": "crossgrove.com.bananagrams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275302342917-umrtu4b2n91ih238v4cet34vgi2126jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD74Sd-kbcMdQuVpTdv9JQDUp-d9ehyArI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275302342917-umrtu4b2n91ih238v4cet34vgi2126jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
